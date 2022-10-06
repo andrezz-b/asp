@@ -1,0 +1,10 @@
+Polje je prazno.
+Polje je prazno.
+Nije moguce dodati element na poziciju 2.
+Polje: 11 10 18 
+Nije moguce obrisati element na poziciji 2. 
+Polje: 11 
+Polje je prazno.
+Polje: 19 20 21 22 23 24 25 26 
+Polje je puno.
+Polje: 19 20 21 22 23 24 25 26 
