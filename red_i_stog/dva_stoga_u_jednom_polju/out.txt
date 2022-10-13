@@ -1,0 +1,10 @@
+Stog: 1 2 3
+Stog: 11 12 13
+Stog je 2 pun. Ne mogu dodati element.
+Stog: 1 2 3
+Stog: 11 12 13 14 15 16 17
+Stog je 1 prazan. Ne mogu obrisati element.
+Stog je 2 prazan. Ne mogu obrisati element.
+Stog je 2 prazan. Ne mogu obrisati element.
+Stog: 9
+Stog: 8

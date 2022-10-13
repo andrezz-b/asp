@@ -1,0 +1,12 @@
+11
+VISIT github
+VISIT trello
+FORWARD
+BACK
+FORWARD
+BACK
+BACK
+VISIT python
+FORWARD
+VISIT django
+BACK

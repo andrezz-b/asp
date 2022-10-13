@@ -1,0 +1,11 @@
+github
+trello
+trello
+github
+trello
+github
+HOME
+python
+python
+django
+python
