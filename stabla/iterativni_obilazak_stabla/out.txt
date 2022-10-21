@@ -1,0 +1,6 @@
+    .-(2)----.                                                                 
+ .-(f)    .-(3)-.                                                              
+(h)      (r)   (6)                                                             
+Pre-order: 2fh3r6
+In-order: hf2r36
+Post-order: hfr632

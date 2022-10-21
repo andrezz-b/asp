@@ -1,0 +1,43 @@
+       .----------------(a)-------.                                            
+    .-(b)-------.           .----(c)-------.                                   
+ .-(d)    .----(e)----.    (f)-.        .-(g)                                  
+(h)      (i)-.     .-(i)      (j)    .-(k)                                     
+            (l)   (m)               (n)                                        
+1
+                .----------(a)----------.                                      
+             .-(b)-------.           .-(c)-.                                   
+       .----(d)       .-(e)       .-(f)   (f)-.                                
+    .-(h)-.        .-(i)       .-(i)         (j)                               
+ .-(k)   (k)      (l)         (m)                                              
+(n)                                                                            
+2
+1. Broj blizanaca
+2. Kreiraj stablo
+3. Ispis
+4. Izlaz
+Unesite stablo kao niz alfanumerickih znakova odvojenih sa znakom ;
+1. Broj blizanaca
+2. Kreiraj stablo
+3. Ispis
+4. Izlaz
+1. Broj blizanaca
+2. Kreiraj stablo
+3. Ispis
+4. Izlaz
+1. Broj blizanaca
+2. Kreiraj stablo
+3. Ispis
+4. Izlaz
+Unesite stablo kao niz alfanumerickih znakova odvojenih sa znakom ;
+1. Broj blizanaca
+2. Kreiraj stablo
+3. Ispis
+4. Izlaz
+1. Broj blizanaca
+2. Kreiraj stablo
+3. Ispis
+4. Izlaz
+1. Broj blizanaca
+2. Kreiraj stablo
+3. Ispis
+4. Izlaz

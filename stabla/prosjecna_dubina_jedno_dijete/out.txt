@@ -1,0 +1,28 @@
+       .-------------(a)----------.                                            
+    .-(b)----------.     .-------(c)----.                                      
+ .-(d)    .-------(e)   (f)----.     .-(g)                                     
+(h)      (i)----.           .-(j)   (k)                                        
+             .-(l)         (m)                                                 
+            (n)                                                                
+2.57
+
+1 Prosjecna dubina cvorova s jednim djetetom (prosjecna_dubina)
+2 Kreiraj stablo 
+3 Ispis 
+4 Izlaz
+Unesite stablo kao niz alfanumerickih znakova odvojenih sa znakom ;
+
+1 Prosjecna dubina cvorova s jednim djetetom (prosjecna_dubina)
+2 Kreiraj stablo 
+3 Ispis 
+4 Izlaz
+
+1 Prosjecna dubina cvorova s jednim djetetom (prosjecna_dubina)
+2 Kreiraj stablo 
+3 Ispis 
+4 Izlaz
+
+1 Prosjecna dubina cvorova s jednim djetetom (prosjecna_dubina)
+2 Kreiraj stablo 
+3 Ispis 
+4 Izlaz
