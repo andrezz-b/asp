@@ -1,0 +1,4 @@
+Postfix: abc*+de*f+g*+
+Pre-order: ++a*bc*+*defg
+In-order: a+b*c+d*e+f*g
+Post-order: abc*+de*f+g*+

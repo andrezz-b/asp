@@ -1,0 +1,25 @@
+24
+add 8
+add 1
+add 9
+add 2
+add 6
+add 4
+add 1
+prn
+max
+min
+fnd 1
+fnd 3
+cnt 1
+cnt 2
+cnt 3
+pre 1
+pre 2
+pre 4
+suc 4
+suc 6
+suc 9
+del 4
+del 4
+prn
