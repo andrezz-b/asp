@@ -1,0 +1,36 @@
+
+1.Rekombiniraj (rekombiniraj)
+2.Unos vrijednost(i) kljuceva (1-999)
+3.Ispis
+4.Izlaz
+
+Unos zakljucite bilo kojim nebrojcanim znakom: 
+1.Rekombiniraj (rekombiniraj)
+2.Unos vrijednost(i) kljuceva (1-999)
+3.Ispis
+4.Izlaz
+                 .-----------------(015)-------.                               
+       .-------(006)--.                   .--(018)--.                          
+  .--(003)--.       (007)-------.       (017)     (020)                        
+(002)     (004)            .--(013)                                            
+                         (009)                                                 
+
+1.Rekombiniraj (rekombiniraj)
+2.Unos vrijednost(i) kljuceva (1-999)
+3.Ispis
+4.Izlaz
+
+1.Rekombiniraj (rekombiniraj)
+2.Unos vrijednost(i) kljuceva (1-999)
+3.Ispis
+4.Izlaz
+       .-------(015)-----------------.                                         
+  .--(018)--.                   .--(006)-------.                               
+(020)     (017)       .-------(007)       .--(003)--.                          
+                    (013)--.            (004)     (002)                        
+                         (009)                                                 
+
+1.Rekombiniraj (rekombiniraj)
+2.Unos vrijednost(i) kljuceva (1-999)
+3.Ispis
+4.Izlaz

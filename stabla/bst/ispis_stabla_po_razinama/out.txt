@@ -1,0 +1,26 @@
+
+1 ispis po razinama (ispis_po_razinama)
+2.Unos elemenata u stablo (1-999)
+3.Ispis stabla
+4.Izlaz
+
+Unos zakljucite bilo kojim nebrojcanim znakom: 
+1 ispis po razinama (ispis_po_razinama)
+2.Unos elemenata u stablo (1-999)
+3.Ispis stabla
+4.Izlaz
+  .--(010)----------------------.                                              
+(009)       .-----------------(100)                                            
+          (020)-------.                                                        
+                 .--(030)--.                                                   
+               (025)     (035)                                                 
+
+1 ispis po razinama (ispis_po_razinama)
+2.Unos elemenata u stablo (1-999)
+3.Ispis stabla
+4.Izlaz
+10 9 100 20 30 25 35 
+1 ispis po razinama (ispis_po_razinama)
+2.Unos elemenata u stablo (1-999)
+3.Ispis stabla
+4.Izlaz

@@ -1,0 +1,23 @@
+1. Broj aritmetickih sredina
+2. Kreiraj stablo
+3. Ispis
+4. Izlaz
+
+Unos zakljucite bilo kojim nebrojcanim znakom: 1. Broj aritmetickih sredina
+2. Kreiraj stablo
+3. Ispis
+4. Izlaz
+  .-------(020)--.                                                             
+(010)--.       (030)------------.                                              
+     (015)                 .--(080)-------.                                    
+                      .--(070)       .--(090)--.                               
+                    (045)          (088)     (092)                             
+1. Broj aritmetickih sredina
+2. Kreiraj stablo
+3. Ispis
+4. Izlaz
+3
+1. Broj aritmetickih sredina
+2. Kreiraj stablo
+3. Ispis
+4. Izlaz
