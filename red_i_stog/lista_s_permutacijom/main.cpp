@@ -1,34 +1,34 @@
 #include <iostream>
 
-struct Cvor {
-  int val;
-  Cvor *next, *prev;
+template <typename T> struct Cvor {
+  T val;
+  Cvor<T> *next, *prev;
 
-  Cvor(int val) {
+  Cvor(T val) {
     this->val = val;
     next = NULL;
     prev = NULL;
   }
 };
 
-void swap_nodes(Cvor **a, Cvor **b) {
-  Cvor *tmp = *a;
+void swap_nodes(Cvor<int> **a, Cvor<int> **b) {
+  Cvor<int> *tmp = *a;
   *a = *b;
   *b = tmp;
 }
 
-struct Stog {
-  Cvor *head, *half, *end;
+template <typename T> struct Stog {
+  Cvor<T> *head, *half, *end;
   int size;
 
   Stog()
     : head(NULL), half(NULL), end(NULL), size(0)
   {}
 
-  void push(int val) {
+  void push(T val) {
     // implementirati funkciju push, pratiti half, head i end pokazivace
     // paziti na velicinu size
-    Cvor *newNode = new Cvor(val);
+    Cvor<T> *newNode = new Cvor<T>(val);
 
     if (!size) {
       // Ako je veličina 0 svi pokazuju na na novi element
@@ -71,7 +71,7 @@ struct Stog {
       half = NULL;
     } else {
       size--;
-      Cvor *tmp = head;
+      Cvor<T> *tmp = head;
       head = head->prev;
       head->next = NULL;
 
@@ -128,7 +128,7 @@ struct Stog {
     std::cout << size << "\n";
     if (size <= 0) return;
 
-    for (Cvor *curr = end; curr != NULL ; curr = curr->next) {
+    for (Cvor<T> *curr = end; curr != NULL ; curr = curr->next) {
       std::cout << curr->val << " ";
     }
   }
@@ -139,7 +139,7 @@ int main() {
   std::cin.tie(NULL);
 
   int n;
-  Stog *p = new Stog();
+  Stog<int> *p = new Stog<int>();
   std::cin >> n;
 
   for (int i = 0; i < n; ++i) {

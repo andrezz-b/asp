@@ -2,25 +2,25 @@
 #include <string>
 #include <deque>
 
-struct Node {
-  int val;
-  Node *next;
+template <typename T> struct Node {
+  T val;
+  Node<T> *next;
 
-  Node(const int &val)
+  Node(const T &val)
     : val(val), next(NULL)
   {}
 };
 
-struct Queue {
-  Node *head, *tail;
+template <typename T> struct Queue {
+  Node<T> *head, *tail;
   int size;
 
   Queue()
     : head(NULL), tail(NULL), size(0)
   {}
 
-  void enqueue(const int &val) {
-    Node *newNode = new Node(val);
+  void enqueue(const T &val) {
+    Node<T> *newNode = new Node<T>(val);
     if (!head || !tail) {
       head = newNode;
       tail = newNode;
@@ -39,21 +39,21 @@ struct Queue {
       head = NULL;
       tail =  NULL;
     } else {
-      Node *tmp = head;
+      Node<T> *tmp = head;
       head = head->next;
       delete tmp;
     }
     size--;
   }
 
-  int getHead() {
-    if (!head || !tail) return -1;
+  T getHead() {
+    if (!head || !tail) return (T) -1;
 
     return head->val;
   }
 
-  int getTail() {
-    if (!head || !tail) return -1;
+  T getTail() {
+    if (!head || !tail) return (T) -1;
 
     return tail->val;
   }
@@ -73,7 +73,7 @@ int main() {
 
   std::string op;
 
-  Queue q;
+  Queue<int> q;
   std::deque<int> maxQ;
 
   for (int i = 0; i < n; ++i) {

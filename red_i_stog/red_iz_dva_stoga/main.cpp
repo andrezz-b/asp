@@ -3,25 +3,24 @@
 
 #define MAXS 10001
 
-struct Stog {
+template <typename T> struct Stog {
 public:
-  int *arr;
+  T *arr;
   int top;
 
-  int *getStog() {
+  T *getStog() {
     return arr;
   }
 
-  Stog(int n) {
-    arr = new int[n];
-    top = -1;
-  }
+  Stog(int n)
+    : arr(new T[n]), top(-1) 
+  {}
 
   int stack_is_empty() {
     return top == -1;
   }
 
-  void push(int val) {
+  void push(T val) {
     arr[++top] = val;
   }
 
@@ -29,7 +28,7 @@ public:
     if (stack_is_empty()) return;
     top--;
   }
-  int getTop() {
+  T getTop() {
     return arr[top];
   }
   void stack_clear() {
@@ -37,7 +36,7 @@ public:
   }
 };
 
-void relocate(Stog &s1, Stog &s2) {
+void relocate(Stog<int> &s1, Stog<int> &s2) {
   while (!s1.stack_is_empty()) {
     s2.push(s1.getTop());
     s1.pop();
@@ -45,16 +44,16 @@ void relocate(Stog &s1, Stog &s2) {
 
 }
 
-void enqueue(Stog &s1, Stog &s2, const int &val) {
+void enqueue(Stog<int> &s1, Stog<int> &s2, const int &val) {
   s1.push(val);
 }
 
-void dequeue(Stog &s1, Stog &s2) {
+void dequeue(Stog<int> &s1, Stog<int> &s2) {
   s2.pop();
   relocate(s2, s1);
 }
 
-void print_head(Stog &s1, Stog &s2) {
+void print_head(Stog<int> &s1, Stog<int> &s2) {
   relocate(s1, s2);
   if (s2.stack_is_empty()) {
     std::cout << "buffering\n";
@@ -69,8 +68,8 @@ int main() {
 
   int n;
   //definirati dva stoga
-  Stog first(MAXS);
-  Stog second(MAXS);
+  Stog<int> first(MAXS);
+  Stog<int> second(MAXS);
 
   std::cin >> n;
 

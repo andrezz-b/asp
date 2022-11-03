@@ -7,20 +7,20 @@
 #define DEBUG(...) printf(__VA_ARGS__)
 #endif
 
-struct Stog {
-  std::list<int> l;
+template <typename T> struct Stog {
+  std::list<T> l;
   int top;
   int tt;
 
-  std::list<int> getStog() {
+  std::list<T> getStog() {
     return l;
   }
 
   Stog()
-    : top(-1), tt(0)
+    : top(-1), tt( 0)
   {}
 
-  int push(const int &val) {
+  int push(const T &val) {
     l.push_front(val);
     top++;
 
@@ -48,7 +48,7 @@ struct Stog {
   int print() {
     if (empty()) return -1;
 
-    for (auto const &val : l)
+    for (auto &val : l)
       std::cout << val << " ";
     /*
     for (std::list<int>::iterator it = l.begin(); it != l.end(); ++it)
@@ -60,7 +60,7 @@ struct Stog {
   }
 };
 
-void top_topova(const Stog &s) {
+void top_topova(const Stog<int> &s) {
   std::cout << s.tt << "\n";
 }
 
@@ -71,7 +71,7 @@ int main() {
   int val, ret_val, menu_choice;
   char c;
 
-  Stog s = Stog();
+  Stog<int> s = Stog<int>();
 
   do {
     menu_choice = 0;

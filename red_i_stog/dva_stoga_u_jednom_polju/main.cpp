@@ -2,8 +2,8 @@
 
 #define SIZE 10
 
-struct Stog {
-    int *array;
+template <typename T> struct Stog {
+    T *array;
     int tops[2];
 
     int *getStog() {
@@ -11,12 +11,12 @@ struct Stog {
     }
 
     Stog() {
-        array = new int[SIZE];
+        array = new T[SIZE];
         tops[0] = -1;
         tops[1] = SIZE;
     }
 
-    int push(const int &stack_nr, const int &val) {
+    int push(const int &stack_nr, const T &val) {
         if (stack_nr != 1 && stack_nr != 2) return -2;
         // Ako su jedan do drugoga
         if (tops[0] + 1 == tops[1]) return -1;
@@ -66,7 +66,7 @@ int main() {
     std::ios_base::sync_with_stdio(false);
     std::cin.tie(NULL);
     char menu_choice = 0;
-    Stog stack;
+    Stog<int> stack;
     int val, retval, stack_nr;
 
     //DEBUG("\n(d) dodaj - push\n(b) brisi - pop\n(i) ispis - print\n(e) Exit\n");

@@ -1,28 +1,28 @@
 #include <iostream>
 #include <string>
 
-struct Cvor {
-  int val;
-  Cvor *next;
+template <typename T> struct Cvor {
+  T val;
+  Cvor<T> *next;
 
   Cvor()
     : next(NULL)
   {}
 
-  Cvor(const int &val)
+  Cvor(const T &val)
     : val(val), next(NULL)
   {}
 };
 
-struct Stog {
-  Cvor *top;
+template <typename T> struct Stog {
+  Cvor<T> *top;
 
   Stog()
     : top(NULL)
   {}
 
-  int push(const int &val) {
-    Cvor *p = new Cvor(val);
+  int push(const T &val) {
+    Cvor<T> *p = new Cvor<T>(val);
     p->next = top;
     top = p;
     return 0;
@@ -30,7 +30,7 @@ struct Stog {
 
   int pop() {
     if (top == NULL) return -1;
-    Cvor *drugi;
+    Cvor<T> *drugi;
 
     drugi = top->next;
     delete top;
@@ -43,8 +43,8 @@ struct Stog {
     return 0;
   }
 
-  int rtop() {
-    if (empty()) return 0;
+  T rtop() {
+    if (empty()) return (T) 0;
 
     return top->val;
   }
@@ -60,9 +60,9 @@ int main() {
 
   std::string op;
 
-  Stog stack;
+  Stog<int> stack;
 
-  Stog maxStack;
+  Stog<int> maxStack;
 
   for (int i = 0; i < n; ++i) {
     std::cin >> op;

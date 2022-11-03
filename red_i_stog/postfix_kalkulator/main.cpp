@@ -1,34 +1,34 @@
 #include <iostream>
 
-class Stog {
-  int *array;
+template <typename T> class Stog {
+  T *array;
   int top;
   int size;
 
 public:
-  int *getStog() {
+  T *getStog() {
     return array;
   }
 
   Stog(const int &n)
-    : array(new int[n]), top(-1), size(n)
+    : array(new T[n]), top(-1), size(n)
   {}
 
-  int push(const int &val) {
+  int push(const T &val) {
     if (top >= size) return -1;
     array[++top] = val;
     return 0;
   }
 
-  int pop() {
-    if (empty()) return -1;
-    int popped = array[top];
+  T pop() {
+    if (empty()) return (T) -1;
+    T popped = array[top];
     top--;
     return popped;
   }
 
-  int topValue() {
-    if (empty()) return -1;
+  T topValue() {
+    if (empty()) return (T) -1;
     return array[top];
   }
 
@@ -50,7 +50,7 @@ public:
   }
 };
 
-int calculate(Stog &s, const char &op) {
+int calculate(Stog<int> &s, const char &op) {
   int num1 = s.pop();
   int num2 = s.pop();
   
@@ -75,7 +75,7 @@ int main() {
   std::cin >> n;
 
   //instancirati objekt razreda Stog
-  Stog s(n);
+  Stog<int> s(n);
   const std::string operations = "*+-";
 
   for (int i = 0; i < n; i++) {
