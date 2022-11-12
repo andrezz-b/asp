@@ -1,0 +1,4 @@
+MinHeap: 2 4 5 7
+MinHeap: 2 4 5 9
+MinHeap: 1 4 2 9 6 8 5
+MinHeap: 1 4 2 5 8
