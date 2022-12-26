@@ -1,0 +1,27 @@
+1. Postoji trokut
+2. Unos grafa
+3. Ispisi
+4. Izlaz
+Odabir:	Unesite broj bridova: Unesite oznake vrhova brida 1 Unesite oznake vrhova brida 2 Unesite oznake vrhova brida 3 Unesite oznake vrhova brida 4 Unesite oznake vrhova brida 5 Unesite oznake vrhova brida 6 Unesite oznake vrhova brida 7 Unesite oznake vrhova brida 8 Unesite oznake vrhova brida 9 Unesite oznake vrhova brida 10 1. Postoji trokut
+2. Unos grafa
+3. Ispisi
+4. Izlaz
+Odabir:	Unesite oznaku vrha:
+N
+1. Postoji trokut
+2. Unos grafa
+3. Ispisi
+4. Izlaz
+Odabir:	Unesite oznaku vrha:
+N
+1. Postoji trokut
+2. Unos grafa
+3. Ispisi
+4. Izlaz
+Odabir:	Unesite oznaku vrha:
+Y
+1. Postoji trokut
+2. Unos grafa
+3. Ispisi
+4. Izlaz
+Odabir:	
