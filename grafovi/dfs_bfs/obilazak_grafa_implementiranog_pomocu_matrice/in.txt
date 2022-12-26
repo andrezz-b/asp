@@ -1,0 +1,16 @@
+1
+10
+s w
+r s
+r v
+w t
+x w
+t x
+t u
+x y
+u y
+x u
+2
+3
+s
+6

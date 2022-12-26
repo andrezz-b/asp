@@ -1,0 +1,23 @@
+s:  w r
+w:  s t x
+r:  s v
+v:  r
+t:  w x u
+x:  w t u y
+u:  t x y
+y:  x u
+Obradjujem vrh s
+Obradjujem brid (s,w)
+Obradjujem brid (s,r)
+Obradjujem vrh w
+Obradjujem brid (w,t)
+Obradjujem brid (w,x)
+Obradjujem vrh r
+Obradjujem brid (r,v)
+Obradjujem vrh t
+Obradjujem brid (t,u)
+Obradjujem vrh x
+Obradjujem brid (x,y)
+Obradjujem vrh v
+Obradjujem vrh u
+Obradjujem vrh y
