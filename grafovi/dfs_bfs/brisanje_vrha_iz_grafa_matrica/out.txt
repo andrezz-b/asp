@@ -1,0 +1,53 @@
+s:  w r
+w:  s x
+r:  s v
+v:  r
+x:  w t u y
+t:  x u
+u:  x t y
+y:  x u
+
+s:  w r
+w:  s x
+r:  s v
+v:  r
+x:  w t u
+t:  x u
+u:  x t
+
+w:  x
+r:  v
+v:  r
+x:  w t u
+t:  x u
+u:  x t
+
+w:  x
+v: 
+x:  w t u
+t:  x u
+u:  x t
+
+w: 
+v: 
+t:  u
+u:  t
+
+w: 
+v: 
+t:  u
+u:  t
+
+v: 
+t:  u
+u:  t
+
+v: 
+t:  u
+u:  t
+
+t:  u
+u:  t
+
+u: 
+
