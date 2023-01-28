@@ -1,0 +1,11 @@
+0 11 1
+9
+1 Sunce 0
+1 Sunce 1
+1 Sunce 2
+1 Mjesec 0
+1 Uran 0
+1 Neptun 0
+1 Pluton 0
+1 Merkur 0
+1 Merkur 1

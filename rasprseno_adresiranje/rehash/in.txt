@@ -1,0 +1,14 @@
+13 11
+i Sunce
+i Merkur
+i Venera
+i Zemlja
+i Mjesec
+i Mars
+i Jupiter
+i Saturn
+i Uran
+i Neptun
+i Pluton
+r 19
+r 6
