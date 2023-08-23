@@ -1,0 +1,30 @@
+17 11
+Sunce 1
+Sunce 1392000
+Merkur 4879
+Venera 12104
+Zemlja 12756
+Mjesec 2
+Mars 3
+Jupiter 142984
+Uran 4
+Saturn 120536
+Uran 51118
+Mjesec 3475
+Neptun 5
+Pluton 6
+Neptun 49528
+Pluton 2370
+Mars 6792
+11
+Sunce
+Merkur
+Venera
+Zemlja
+Mjesec
+Mars
+Jupiter
+Saturn
+Uran
+Neptun
+Pluton

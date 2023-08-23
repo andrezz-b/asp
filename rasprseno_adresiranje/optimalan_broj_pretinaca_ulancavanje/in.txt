@@ -1,0 +1,12 @@
+11 3 100
+Sunce
+Merkur
+Venera
+Zemlja
+Mjesec
+Mars
+Jupiter
+Saturn
+Uran
+Neptun
+Pluton
